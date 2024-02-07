@@ -1,0 +1,95 @@
+.speech {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: black;
+
+}
+
+.direction {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: lightgray;
+}
+
+.direction:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.ZINAIDA {
+    color: #ff6666;
+}
+
+.MARTHA {
+    color: #3366ff;
+}
+
+.JOHN {
+    color: #9999ff;
+}
+
+.ZINAIDA:hover{
+    font-size: medium;
+    color:beige;
+    text-shadow: 3px 2px 4px blue;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+.MARTHA:hover{
+    font-size: medium;
+    color:azure;
+    text-shadow: 3px 2px 4px blue;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    border-color: black;
+}
+
+th, td {        
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;      
+}   
+
+tr:hover{
+    background-color: #f5f5f5;
+}
+
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.li{
+    float: left;
+}
+
+.a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    color: white;
+    transition: 0.3s;
+}   
+
+
+
+
+
+
+
+
+
+
+
