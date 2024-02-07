@@ -16,6 +16,10 @@
     background-color: lightblue;
     color: white;
 }
+.name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 
 .ZINAIDA {
     color: #ff6666;
@@ -25,9 +29,7 @@
     color: #3366ff;
 }
 
-.JOHN {
-    color: #9999ff;
-}
+
 
 .ZINAIDA:hover{
     font-size: medium;
@@ -96,7 +98,43 @@ tr:hover{
     color: #3366ff;
 }
 
+.KOSICH:hover{
+    font-size: medium;
+    color:beige;
+    text-shadow: 3px 2px 4px rgba(236, 33, 33, 0.8);
+    border-style:solid;
+    border-radius: 5px;
+}
 
+.AVDOTIA:hover{
+    font-size: large;
+    color:lightgreen;
+    text-shadow: 1px 1px 1px green;
+    border-width: thin;
+    border-radius: 5px;
+}
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+    font-size: 20px;
+
+}
+
+ul.navbar-horizontal li {
+    float:left;
+    
+    background-color: rgb(247, 237, 237);
+}
+ul.navbar-horizontal a {
+    display:block;
+    padding:8px;
+}
+ul.navbar-horizontal a:hover {
+    background-color: rgb(150, 140, 141);
+}
 
 
 
